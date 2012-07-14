@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home</title>
+
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" media="screen" href="stylesheets/main.css"/>
+        <link rel="stylesheet" media="screen" href="stylesheets/icons.css"/>
+        <link rel="stylesheet" media="screen" href="stylesheets/bootstrap/bootstrap.css"/>
+
+        <script src="javascripts/jquery/jquery-1.7.1.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="javascripts/jqueryui/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="javascripts/bootstrap/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+        <script src="javascripts/knob/jquery.knob.js" type="text/javascript" charset="utf-8"></script>
+        <script src="javascripts/jeditable/jquery.jeditable.js" type="text/javascript" charset="utf-8"></script>
+        <script src="javascripts/uikit/ui.js" type="text/javascript" charset="utf-8"></script>
+        <script src="javascripts/jquery-ui-touch-punch/jquery.ui.touch-punch.js" type="text/javascript" charset="utf-8"></script>
+        <script src="javascripts/jsplumb/jquery.jsPlumb-1.3.9-all.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="javascripts/linker.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/jquery.linker.js" type="text/javascript" charset="utf-8"></script>
+
+    </head>
+    <body data-offset="50" data-spy="scroll">
+
+
+        <div class="navbar navbar-fixed-top"> 
+              <div class="navbar-inner"> 
+                <div class="container"> 
+                        <a class="brand" href="/"><img src="images/logo.png" alt="logo"/>Sticky Plane</a> 
+
+                        <ul class="nav">
+                          <li class="divider-vertical"></li>
+                          <li>
+                            <a href="#" rel="tooltip" title="first tooltip"><div class="pict sprite-add-item"></div></b></a>
+                          </li>
+                          <li class="divider-vertical"></li>
+                        </ul>
+
+                        <ul class="nav pull-right">
+
+                          <li>
+                            <form class="navbar-search pull-left">
+                              <input type="text" class="search-query typeahead" placeholder="Search" data-provide="typeahead">
+                            </form>
+                          </li>
+
+                          <li class="divider-vertical"></li>
+
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><div class="pict sprite-agent"></div></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><i class="icon-folder-close"></i> Spaces</a></li>
+                                <li><a href="#"><i class="icon-user"></i> Profile</a></li>
+                                <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+                                <li><a href="#"><i class="icon-off"></i> Logout</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="divider-vertical"></li>
+
+                        </ul>
+
+                </div>
+              </div>
+        </div>
+
+<div class="container-fluid">
+
+<div class="board">
+
+
+    <div class="infos">
+        This board contains some notes...
+    </div>
+
+    <div id="1" class="board-item" style="top: 100px; left: 100px">
+        <div class="modal-header">
+                <button type="button" class="close" >×</button>
+                <h4><a href="#">Board #1</a></h4>
+        </div>
+        <div class="modal-body">
+                <p>One fine body…</p>
+        </div>
+  	<div class="modal-footer board-item-footer">
+                <a href="#" class="link-init"><i class="icon-share"></i></a>
+	</div>
+    </div>
+
+    <div id="2" class="board-item" style="top: 450px; left: 200px"/>
+	<div class="modal-header">
+		<button type="button" class="close" >×</button>
+                <h4><a href="#">Board #2</a></h4>
+	</div>
+	<div class="modal-body">
+		<p>One fine body…</p>
+	</div>
+  	<div class="modal-footer board-item-footer">
+                <a href="#" class="link-init"><i class="icon-share"></i></a>
+	</div>
+    </div>
+
+    <div id="3" class="board-item" style="top: 270px; left: 400px">
+	<div class="modal-header">
+		<button type="button" class="close" >×</button>
+                <h4><a href="#">Board #3</a></h4>
+	</div>
+	<div class="modal-body">
+		<p>One fine body…</p>
+	</div>
+  	<div class="modal-footer board-item-footer">
+                <a href="#" class="link-init"><i class="icon-share"></i></a>
+	</div>
+    </div>
+
+
+</div>
+</div>
+
+    <div id="boardEdit" class="modal hide">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">×</button>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>
+    </div>
+
+    </body>
+</html>
